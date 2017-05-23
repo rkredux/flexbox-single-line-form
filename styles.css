@@ -1,0 +1,57 @@
+/* Some CSS Setup - nothing to do with flexbox */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+
+div.cover{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./Cable_Car/Cable_Car.jpg);
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.flex-form > * {
+  border: 0;
+  padding: 10px;
+  background: white;
+  line-height: 30px;
+  font-size: 15px; 
+  outline: 0;
+  border-right: 1px solid rgba(0,0,0,.2);
+}
+
+.flex-form > *:last-child{
+  border-right: 0; 
+  background: #fa3635;
+  color: white;
+  cursor: pointer; 
+} 
+
+.flex-form{
+  max-width: 1000px; 
+  border: 20px solid rgba(0,0,0,.3);
+  border-radius: 5px; 
+  display: flex;
+}
+
+
+
+
+
+/*a {
+  color:white;
+}*/
+
+
