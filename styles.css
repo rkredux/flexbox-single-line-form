@@ -12,7 +12,6 @@ body {
   margin: 0;
 }
 
-
 div.cover{
   width: 100vw;
   height: 100vh;
@@ -20,6 +19,14 @@ div.cover{
   display: flex;
   justify-content: center; 
   align-items: center; 
+}
+
+.flex-form{
+  max-width: 1000px; 
+  border: 15px solid rgba(0,0,0,.3);
+  /*background-clip: padding-box; */
+  border-radius: 5px; 
+  display: flex;
 }
 
 .flex-form > * {
@@ -39,12 +46,7 @@ div.cover{
   cursor: pointer; 
 } 
 
-.flex-form{
-  max-width: 1000px; 
-  border: 20px solid rgba(0,0,0,.3);
-  border-radius: 5px; 
-  display: flex;
-}
+
 
 
 
